@@ -11,10 +11,20 @@ st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:")
 
 st.title("Paladins of the West Kingdom: How to Play")
 
-st.write ("Check off chapters to fill the progress bar")
-one = st.checkbox("1")
-two = st.checkbox ("2")
-three = st.checkbox("3")
+st.write ("Check off chapters to fill the progress bar!")
+checks = st.columns(4)
+with checks[0]:
+    st.checkbox('1')
+with checks[1]:
+    st.checkbox('2')
+with checks[2]:
+    st.checkbox('3')
+with checks[3]:
+    st.checkbox('4')
+#one = st.checkbox("1")
+#two = st.checkbox ("2")
+#three = st.checkbox("3")
+
 
 why = st.Page("why_play.py", title="1) Why play Paladins of the West Kingdom?", icon=":material/thumb_up:")
 worker_placement = st.Page("worker_placement.py", title="2) What is a worker placement game?", icon = ":material/thumb_up:")
