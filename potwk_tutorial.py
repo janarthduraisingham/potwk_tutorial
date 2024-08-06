@@ -6,4 +6,5 @@ Created on Tue Aug  6 11:51:36 2024
 """
 import streamlit as st
 
-st.title("Paladins of the West Kingdom: An Interactive Tutorial")
+st.title("Paladins of the West Kingdom")
+st.header("How to Play")
