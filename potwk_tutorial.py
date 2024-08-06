@@ -6,6 +6,8 @@ Created on Tue Aug  6 11:51:36 2024
 """
 import streamlit as st
 
+st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:")
+
 st.title("Paladins of the West Kingdom: How to Play")
 
 why = st.Page("why_play.py", title="Why play Paladins of the West Kingdom?", icon=":material/thumb_up:")
