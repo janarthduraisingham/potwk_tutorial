@@ -6,10 +6,10 @@ Created on Tue Aug  6 11:51:36 2024
 """
 import streamlit as st
 
-worker_placement = st.Page("worker_placement.py", title="What is a worker placement game?", icon = ":material/add_circle")
+worker_placement = st.Page("worker_placement.py", title="What is a worker placement game?", icon = ":material/thumb_up")
 
 pg = st.navigation([worker_placement])
-st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/edit")
+st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up")
 
 st.title("Paladins of the West Kingdom: How to Play")
 st.header("Why should you play Paladins of the West Kingdom?")
