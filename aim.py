@@ -11,3 +11,4 @@ st.header("What is the aim of the game?")
 st.subheader("Now, you may want to check out:")
 st.write("What is a worker placement game")
 st.write("Game setup")
+
