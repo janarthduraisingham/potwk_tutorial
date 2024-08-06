@@ -5,7 +5,7 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.title("Why should you play Paladins of the West Kingdom?")
+st.header("Why should you play Paladins of the West Kingdom?")
 
 st.subheader("Now, you may want to check out:")
 st.write("What is a worker placement game?")

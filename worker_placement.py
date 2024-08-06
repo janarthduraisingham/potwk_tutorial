@@ -6,7 +6,7 @@ Created on Wed Aug  7 00:19:57 2024
 """
 import streamlit as st
 
-st.title("What is a worker placement game?")
+st.header("What is a worker placement game?")
 
 st.subheader("Now, you may want to check out:")
 st.write("What is the aim of the game?")
