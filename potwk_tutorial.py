@@ -10,6 +10,7 @@ worker_placement = st.Page("worker_placement.py", title="What is a worker placem
 
 pg = st.navigation([worker_placement])
 st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:")
+pg.run()
 
 st.title("Paladins of the West Kingdom: How to Play")
 st.header("Why should you play Paladins of the West Kingdom?")
