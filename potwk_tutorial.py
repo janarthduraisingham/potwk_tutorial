@@ -31,12 +31,12 @@ for i in range(10):
     with checks3[i]:
         checkboxes[str(i+20)]=st.checkbox(str(i+20+1))
         
-for i in range(7):
+for i in range(3):
     with checks4[i]:
         checkboxes[str(i+30)]=st.checkbox(str(i+30+1))
           
 
-progress= round(sum(checkboxes.values()) * 100/37)
+progress= round(sum(checkboxes.values()) * 100/33)
 my_bar = st.progress(progress, text="Your Progress:")
 
 
