@@ -14,15 +14,15 @@ st.title("Paladins of the West Kingdom: How to Play")
 st.write ("Check off chapters to fill the progress bar!")
 checks = st.columns(4)
 with checks[0]:
-    st.checkbox('1')
+    one=st.checkbox('1')
 with checks[1]:
-    st.checkbox('2')
+    two=st.checkbox('2')
 with checks[2]:
-    st.checkbox('3')
+    three=st.checkbox('3')
 with checks[3]:
-    st.checkbox('4')
+    four=st.checkbox('4')
 
-progress = checks[0] + checks[1] + checks[2] + checks[3]
+progress = one+two+three+four
 my_bar = st.progress(progress, text="Progress!")
 #one = st.checkbox("1")
 #two = st.checkbox ("2")
