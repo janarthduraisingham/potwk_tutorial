@@ -9,6 +9,8 @@ import streamlit as st
 st.header("5) The Workers")
 
 st.subheader("Now, you may want to check out:")
+if st.button("3) What is the aim of the game?"):
+    st.switch_page("aim.py")
 if st.button("Suspicion cards"):
     st.switch_page("suspicion.py")
 if st.button("32) Actions"):
