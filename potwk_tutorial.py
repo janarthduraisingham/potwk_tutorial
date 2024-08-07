@@ -51,7 +51,7 @@ for i in range(7):
     
     
 
-progress= sum(checkboxes.values()) * 100/37
+progress= round(sum(checkboxes.values()) * 100/37)
 my_bar = st.progress(progress, text="Progress!")
 
 
