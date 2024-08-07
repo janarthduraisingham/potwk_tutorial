@@ -6,10 +6,11 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("What are workers?")
+st.header("5) The Workers")
 
 st.subheader("Now, you may want to check out:")
 if st.button("Suspicion cards"):
     st.switch_page("suspicion.py")
-
+if st.button("32) Actions"):
+    st.switch_page("actions.py")
 

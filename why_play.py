@@ -20,5 +20,4 @@ if st.button("2) What is a worker placement game?"):
 if st.button("3) What is the aim of the game?"):
     st.switch_page("aim.py")
     
- 
-st.write("What is a worker placement game?")
+
