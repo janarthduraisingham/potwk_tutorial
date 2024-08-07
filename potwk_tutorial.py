@@ -22,7 +22,7 @@ with checks[2]:
 with checks[3]:
     four=st.checkbox('4')
 
-progress = one+two+three+four
+progress = (one+two+three+four)*25
 my_bar = st.progress(progress, text="Progress!")
 #one = st.checkbox("1")
 #two = st.checkbox ("2")
