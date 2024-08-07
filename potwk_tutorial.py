@@ -71,7 +71,7 @@ tavern = st.Page("tavern.py", title="27) Tavern Cards", icon=":material/thumb_up
 kings_orders = st.Page("kings_orders.py", title="28) The King's Orders", icon=":material/thumb_up:")
 kings_favours = st.Page("kings_favours.py", title="29) The King's Favours", icon=":material/thumb_up:")
 iconography = st.Page("iconography.py", title="30) Iconography", icon=":material/thumb_up:")
-scoring = st.Page("scpring.py", title="31) Scoring", icon=":material/thumb_up:")
+scoring = st.Page("scoring.py", title="31) Scoring", icon=":material/thumb_up:")
 actions = st.Page("actions.py", title="32) Actions", icon=":material/thumb_up:")
 
 
