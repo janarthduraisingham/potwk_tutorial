@@ -22,12 +22,29 @@ st.write ("Check off chapters to fill the progress bar!")
 #with checks[3]:
 #    four=st.checkbox('4')
 
-pages = 36
-checks = st.columns(pages+1)
+
+checks1 = st.columns(10)
+checks2 = st.columns(10)
+checks3 = st.columns(10)
+checks4 = st.columns(10)
 checkboxes = {}
-for i in range(pages):
-    with checks[i]:
+
+for i in range(10):   
+    with checks1[i]:
         checkboxes[str(i)]=st.checkbox(str(i+1))
+        
+for i in range(10):
+    with checks2[i]:
+        checkboxes[str(i+10)]=st.checkbox(str(i+10+1))
+
+for i in range(10):
+    with checks3[i]:
+        checkboxes[str(i+20)]=st.checkbox(str(i+20+1))
+        
+for i in range(7):
+    with checks4[i]:
+        checkboxes[str(i+30)]=st.checkbox(str(i+30+1))
+        
         
     
     
