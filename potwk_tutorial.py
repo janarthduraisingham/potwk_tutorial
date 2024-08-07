@@ -99,7 +99,15 @@ pg = st.navigation([why,
                     garrison,
                     absolve,
                     attack,
-                    convert
+                    convert,
+                    turns,
+                    paladins,
+                    tavern,
+                    kings_orders,
+                    kings_favours,
+                    iconography,
+                    scoring,
+                    actions
                 
                     ])
 pg.run()
