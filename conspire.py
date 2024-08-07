@@ -9,6 +9,6 @@ import streamlit as st
 st.header("18) The Conspire Action")
 
 st.subheader("Now, you may want to check out:")
-if st.button("19) The Fortify Action"):
-    st.switch_page("fortify.py")
+if st.button("19) The Commission Action"):
+    st.switch_page("commission.py")
 
