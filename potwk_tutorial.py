@@ -73,6 +73,7 @@ kings_favours = st.Page("kings_favours.py", title="29) The King's Favours", icon
 iconography = st.Page("iconography.py", title="30) Iconography", icon=":material/thumb_up:")
 scoring = st.Page("scoring.py", title="31) Scoring", icon=":material/thumb_up:")
 actions = st.Page("actions.py", title="32) Actions", icon=":material/thumb_up:")
+suspicion = st.Page("suspicion.py", title="33) Suspicion", icon=":material/thumb_up:")
 
 
 
@@ -107,7 +108,8 @@ pg = st.navigation([why,
                     kings_favours,
                     iconography,
                     scoring,
-                    actions
+                    actions,
+                    suspicion
                 
                     ])
 pg.run()

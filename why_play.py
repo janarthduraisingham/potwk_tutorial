@@ -5,7 +5,7 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("Why should you play Paladins of the West Kingdom?")
+st.header("1) Why should you play Paladins of the West Kingdom?")
 
 
 video_file = open("videos/test.mp4", "rb")
