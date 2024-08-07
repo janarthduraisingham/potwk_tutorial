@@ -51,17 +51,69 @@ for i in range(7):
     
     
 
-#progress = (one+two+three+four)*25
-progress2= sum(checkboxes.values())
-my_bar = st.progress(progress2, text="Progress!")
+progress= sum(checkboxes.values()) * 100/37
+my_bar = st.progress(progress, text="Progress!")
 
 
 
 why = st.Page("why_play.py", title="1) Why play Paladins of the West Kingdom?", icon=":material/thumb_up:")
 worker_placement = st.Page("worker_placement.py", title="2) What is a worker placement game?", icon = ":material/thumb_up:")
 aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+setup = st.Page("setup.py", title="4) Game setup", icon=":material/thumb_up:")
+workers = st.Page("workers.py", title="5) The Workers", icon=":material/thumb_up:")
+townsfolk = st.Page("townsfolk.py", title="6) The Townsfolk", icon=":material/thumb_up:")
+invaders = st.Page("invaders.py", title="7) The Invaders", icon=":material/thumb_up:")
+silver_bronze = st.Page("silver_bronze.py", title="8) Silver and Bronze", icon=":material/thumb_up:")
+provisions = st.Page("provisions.py", title="9) Provisions", icon=":material/thumb_up:")
+tax = st.Page("tax.py", title="10) Tax", icon=":material/thumb_up:")
+debt = st.Page("debt.py", title="11) Debt", icon=":material/thumb_up:")
+attributes = st.Page("attributes.py", title="12) Attributes", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
+#aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
 
-pg = st.navigation([why, worker_placement, aim])
+
+pg = st.navigation([why,
+                    worker_placement,
+                    aim,
+                    setup,
+                    workers,
+                    townsfolk,
+                    invaders,
+                    silver_bronze,
+                    provisions,
+                    tax,
+                    debt,
+                    attributes])
 pg.run()
 
 
