@@ -12,18 +12,31 @@ st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:")
 st.title("Paladins of the West Kingdom: Bitesize How to Play")
 
 st.write ("Check off chapters to fill the progress bar!")
-checks = st.columns(4)
-with checks[0]:
-    one=st.checkbox('1')
-with checks[1]:
-    two=st.checkbox('2')
-with checks[2]:
-    three=st.checkbox('3')
-with checks[3]:
-    four=st.checkbox('4')
+#checks = st.columns(4)
+#with checks[0]:
+#    one=st.checkbox('1')
+#with checks[1]:
+#    two=st.checkbox('2')
+#with checks[2]:
+#    three=st.checkbox('3')
+#with checks[3]:
+#    four=st.checkbox('4')
 
-progress = (one+two+three+four)*25
-my_bar = st.progress(progress, text="Progress!")
+pages = 36
+checks = st.columns(pages+1)
+checkboxes = {}
+for i in range(pages):
+    with checks[0]:
+        checkboxes[str(i)]=st.checkbox(str(i+1))
+        
+    
+    
+    
+    
+
+#progress = (one+two+three+four)*25
+progress2= sum(checkboxes.values())
+my_bar = st.progress(progress2, text="Progress!")
 
 
 
