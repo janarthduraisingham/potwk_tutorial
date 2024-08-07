@@ -21,6 +21,9 @@ with checks[2]:
     st.checkbox('3')
 with checks[3]:
     st.checkbox('4')
+
+progress = checks[0] + checks[1] + checks[2] + checks[3]
+my_bar = st.progress(progress, text="Progress!")
 #one = st.checkbox("1")
 #two = st.checkbox ("2")
 #three = st.checkbox("3")
