@@ -9,7 +9,7 @@ import streamlit as st
 
 st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:")
 
-st.title("Paladins of the West Kingdom: How to Play")
+st.title("Paladins of the West Kingdom: Bitesize How to Play")
 
 st.write ("Check off chapters to fill the progress bar!")
 checks = st.columns(4)
@@ -24,9 +24,7 @@ with checks[3]:
 
 progress = (one+two+three+four)*25
 my_bar = st.progress(progress, text="Progress!")
-#one = st.checkbox("1")
-#two = st.checkbox ("2")
-#three = st.checkbox("3")
+
 
 
 why = st.Page("why_play.py", title="1) Why play Paladins of the West Kingdom?", icon=":material/thumb_up:")
