@@ -26,7 +26,7 @@ pages = 36
 checks = st.columns(pages+1)
 checkboxes = {}
 for i in range(pages):
-    with checks[0]:
+    with checks[i]:
         checkboxes[str(i)]=st.checkbox(str(i+1))
         
     
