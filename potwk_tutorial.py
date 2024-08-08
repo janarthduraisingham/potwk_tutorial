@@ -7,7 +7,8 @@ Created on Tue Aug  6 11:51:36 2024
 import streamlit as st
 
 
-st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:")
+st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:",
+                   initial_sidebar_state='collapsed')
 
 st.title("Paladins of the West Kingdom: Bitesize How to Play")
 
@@ -45,7 +46,6 @@ why = st.Page("why_play.py", title="1) Why play Paladins of the West Kingdom?", 
 worker_placement = st.Page("worker_placement.py", title="2) What is a worker placement game?", icon = ":material/thumb_up:")
 aim = st.Page("aim.py", title="3) What is the aim of the game?", icon=":material/thumb_up:")
 setup = st.Page("setup.py", title="4) Game Board Setup", icon=":material/thumb_up:")
-workers = st.Page("workers.py", title="5) The Workers", icon=":material/thumb_up:")
 townsfolk = st.Page("townsfolk.py", title="6) The Townsfolk", icon=":material/thumb_up:")
 invaders = st.Page("invaders.py", title="7) The Invaders", icon=":material/thumb_up:")
 silver_bronze = st.Page("silver_bronze.py", title="8) Silver and Bronze", icon=":material/thumb_up:")
@@ -53,6 +53,9 @@ provisions = st.Page("provisions.py", title="9) Provisions", icon=":material/thu
 tax = st.Page("tax.py", title="10) Tax", icon=":material/thumb_up:")
 debt = st.Page("debt.py", title="11) Debt", icon=":material/thumb_up:")
 attributes = st.Page("attributes.py", title="12) Attributes", icon=":material/thumb_up:")
+workers = st.Page("workers.py", title="5) The Workers", icon=":material/thumb_up:")
+suspicion = st.Page("suspicion.py", title="33) Suspicion", icon=":material/thumb_up:")
+actions = st.Page("actions.py", title="32) Actions", icon=":material/thumb_up:")
 develop = st.Page("develop.py", title="13) The Develop Action", icon=":material/thumb_up:")
 hunt = st.Page("hunt.py", title="14) The Hunt Action", icon=":material/thumb_up:")
 trade = st.Page("trade.py", title="15) The Trade Action", icon=":material/thumb_up:")
@@ -72,8 +75,6 @@ kings_orders = st.Page("kings_orders.py", title="28) The King's Orders", icon=":
 kings_favours = st.Page("kings_favours.py", title="29) The King's Favours", icon=":material/thumb_up:")
 iconography = st.Page("iconography.py", title="30) Iconography", icon=":material/thumb_up:")
 scoring = st.Page("scoring.py", title="31) Scoring", icon=":material/thumb_up:")
-actions = st.Page("actions.py", title="32) Actions", icon=":material/thumb_up:")
-suspicion = st.Page("suspicion.py", title="33) Suspicion", icon=":material/thumb_up:")
 
 
 
