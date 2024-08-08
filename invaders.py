@@ -6,15 +6,15 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("7) The Invaders")
+st.header("6) The Invaders")
 
-st.subheader("Now, you may want to check out:")
-
+st.subheader("Next up:")
+if st.button("7) Silver and Bronze"):
+    st.switch_page("silver_bronze.py")
 
 st.write("Questions? Don't worry - later, we'll look at")    
-if st.button("8) Silver and Bronze"):
-    st.switch_page("silver_bronze.py")
-if st.button("32) Actions"):
+
+if st.button("14) Actions"):
     st.switch_page("actions.py")
     
 st.write("Went on a tangent? Return to:")

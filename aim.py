@@ -8,7 +8,7 @@ import streamlit as st
 
 st.header("3) What is the aim of the game?")
 
-st.subheader("Now, you may want to check out:")
+st.subheader("Next up:")
 if st.button("4) Game Board Setup"):
     st.switch_page("setup.py")
 

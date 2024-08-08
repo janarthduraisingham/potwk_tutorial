@@ -6,10 +6,10 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("6) The Townsfolk")
+st.header("5) The Townsfolk")
 
-st.subheader("Now, you may want to check out:")
-if st.button("7) The Invaders"):
+st.subheader("Next up:")
+if st.button("6) The Invaders"):
     st.switch_page("invaders.py")
     
     
