@@ -8,9 +8,11 @@ import streamlit as st
 
 st.header("2) What is a worker placement game?")
 
-st.subheader("Now, you may want to check out:")
+st.subheader("Next up:")
 if st.button("3) What is the aim of the game?"):
     st.switch_page("aim.py")
+    
+st.write("Questions? Don't worry - later, we'll look at:")    
 if st.button("5) The Workers"):
     st.switch_page("workers.py")
 
