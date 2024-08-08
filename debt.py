@@ -6,9 +6,9 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("11) Debt")
+st.header("10) Debt")
 
-st.subheader("Now, you may want to check out:")
-if st.button("12) Attributes"):
+st.subheader("Next up:")
+if st.button("11) Attributes"):
     st.switch_page("attributes.py")
 

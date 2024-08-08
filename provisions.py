@@ -6,11 +6,9 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("9) Provisions")
+st.header("8) Provisions")
 
-st.subheader("Now, you may want to check out:")
-if st.button("10) Tax"):
+st.subheader("Next up:")
+if st.button("9) Tax"):
     st.switch_page("tax.py")
-if st.button("32) Actions"):
-    st.switch_page("actions.py")
 
