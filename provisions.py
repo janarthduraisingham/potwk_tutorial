@@ -8,6 +8,11 @@ import streamlit as st
 
 st.header("8) Provisions")
 
+video_file = open("videos/provisions.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+
 st.subheader("Next up:")
 if st.button("9) Tax"):
     st.switch_page("tax.py")

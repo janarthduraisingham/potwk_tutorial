@@ -6,9 +6,13 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("What is the aim of the game?")
+st.header("13) Suspicion Cards")
 
-st.subheader("Now, you may want to check out:")
-st.write("What is a worker placement game")
-st.write("Game setup")
+video_file = open("videos/suspicion.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+
+st.subheader("Next up:")
+if st.button("14) Actions"):
+    st.switch_page("actions.py")

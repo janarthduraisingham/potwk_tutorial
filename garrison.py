@@ -6,8 +6,13 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("21) The Garrison Action")
+st.header("23) The Garrison Action")
 
-st.subheader("Now, you may want to check out:")
-if st.button("22) The Absolve Action"):
+video_file = open("videos/garrison.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+
+st.subheader("Next up:")
+if st.button("24) The Absolve Action"):
     st.switch_page("absolve.py")

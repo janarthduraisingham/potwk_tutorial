@@ -6,9 +6,14 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("24) The Convert Action")
+st.header("26) The Convert Action")
 
-st.subheader("Now, you may want to check out:")
-if st.button("25) Turns and Rounds"):
+video_file = open("videos/convert.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+
+st.subheader("Next up:")
+if st.button("27) Turns and Rounds"):
     st.switch_page("turns.py")
 

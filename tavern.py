@@ -6,9 +6,14 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("27) Tavern Cards")
+st.header("29) Tavern Cards")
 
-st.subheader("Now, you may want to check out:")
-if st.button("28) The King's Orders"):
+video_file = open("videos/tavern.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+
+st.subheader("Next up:")
+if st.button("30) The King's Orders"):
     st.switch_page("kings_orders.py")
 

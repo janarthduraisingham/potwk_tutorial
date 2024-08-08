@@ -8,7 +8,7 @@ import streamlit as st
 st.header("1) Why should you play Paladins of the West Kingdom?")
 
 
-video_file = open("videos/test.mp4", "rb")
+video_file = open("videos/why.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 

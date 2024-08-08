@@ -8,6 +8,11 @@ import streamlit as st
 
 st.header("10) Debt")
 
+video_file = open("videos/debt.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+
 st.subheader("Next up:")
 if st.button("11) Attributes"):
     st.switch_page("attributes.py")

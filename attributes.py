@@ -6,10 +6,15 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("12) Attributes")
+st.header("11) Attributes")
+
+video_file = open("videos/attributes.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
 
 st.subheader("Next up:")
-if st.button("32) Actions"):
+if st.button("12) Actions"):
     st.switch_page("actions.py")
     
 st.write("Went on a tangent? Return to:")

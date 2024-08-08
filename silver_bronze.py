@@ -8,6 +8,11 @@ import streamlit as st
 
 st.header("7) Silver and Bronze")
 
+video_file = open("videos/silver_bronze.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+
 st.subheader("Next up:")
 if st.button("8) Provisions"):
     st.switch_page("provisions.py")
