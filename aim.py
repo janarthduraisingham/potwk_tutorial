@@ -12,8 +12,11 @@ st.subheader("Now, you may want to check out:")
 if st.button("4) Game Board Setup"):
     st.switch_page("setup.py")
 
-if st.button("2) What is a worker placement game?"):
+st.write("Went on a tangent? Return to:")
+if st.button("1) Why play Paladins of the West Kingdom?"):
     st.switch_page("worker_placement.py")
+
+
 
 
 
