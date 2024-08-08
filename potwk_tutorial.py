@@ -82,7 +82,6 @@ pg = st.navigation([why,
                     worker_placement,
                     aim,
                     setup,
-                    workers,
                     townsfolk,
                     invaders,
                     silver_bronze,
@@ -90,6 +89,9 @@ pg = st.navigation([why,
                     tax,
                     debt,
                     attributes,
+                    workers,
+                    suspicion,
+                    actions,
                     develop,
                     hunt,
                     trade,
@@ -108,9 +110,7 @@ pg = st.navigation([why,
                     kings_orders,
                     kings_favours,
                     iconography,
-                    scoring,
-                    actions,
-                    suspicion
+                    scoring
                 
                     ])
 pg.run()
