@@ -8,10 +8,15 @@ import streamlit as st
 
 st.header("25) The Attack Action")
 
-video_file = open("videos/attack.mp4", "rb")
+st.write("part 1")
+video_file = open("videos/attack1.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+st.write("part 2")
+video_file = open("videos/attack2.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
 st.subheader("Next up:")
 if st.button("26) The Convert Action"):
