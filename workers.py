@@ -13,15 +13,16 @@ if st.button("6) The Townsfolk"):
     st.switch_page("townsfolk.py")
     
 st.write("Questions? Don't worry - later we'll look at:")    
-if st.button("3) What is the aim of the game?"):
-    st.switch_page("aim.py")
-if st.button("Suspicion cards"):
+if st.button("13) Suspicion"):
     st.switch_page("suspicion.py")
-if st.button("32) Actions"):
+if st.button("14) Actions"):
     st.switch_page("actions.py")
     
 st.write("Went on a tangent? Return to:")
 if st.button("2) What is a Worker Placement Game?"):
     st.switch_page("worker_placement.py")
+    
+if st.button("4) Game Board Setup"):
+    st.switch_page("setup.py")
 
 

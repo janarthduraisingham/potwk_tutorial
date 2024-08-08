@@ -8,7 +8,12 @@ import streamlit as st
 
 st.header("12) Attributes")
 
-st.subheader("Now, you may want to check out:")
+st.subheader("Next up:")
 if st.button("32) Actions"):
     st.switch_page("actions.py")
+    
+st.write("Went on a tangent? Return to:")
+
+if st.button("4) Game Board Setup"):
+    st.switch_page("setup.py")
 
