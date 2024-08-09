@@ -28,3 +28,6 @@ st.subheader("Next up:")
 if st.button("22) The Fortify Action"):
     st.switch_page("fortify.py")
 
+st.write("Questions? Don't worry - later, we'll look at:")
+if st.button("32) Iconography"):
+    st.switch_page("iconography.py")
