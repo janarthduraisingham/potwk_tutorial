@@ -8,7 +8,13 @@ import streamlit as st
 
 st.header("16) The Hunt Action")
 
-video_file = open("videos/hunt.mp4", "rb")
+st.write("part 1")
+video_file = open("videos/hunt1.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+st.write("part 2")
+video_file = open("videos/hunt2.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
