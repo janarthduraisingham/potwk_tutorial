@@ -7,7 +7,7 @@ Created on Tue Aug  6 11:51:36 2024
 import streamlit as st
 
 
-st.set_page_config(page_title="POTWK Tutorial", page_icon=":material/thumb_up:",
+st.set_page_config(page_title="POTWK Tutorial", page_icon=":european_castle:",
                    initial_sidebar_state='collapsed')
 
 st.title("Paladins of the West Kingdom: Bitesize How to Play")
