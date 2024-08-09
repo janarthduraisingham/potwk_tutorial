@@ -14,6 +14,8 @@ cols = st.columns(4)
 with cols[0]:
     
     p1 = st.text_input("Player 1 Name")
+    ko1 = st.selectbox("King's Orders",
+    (0, 4, 6, 8, 10, 12, 14, 18),)
     
 with cols[1]:
     
