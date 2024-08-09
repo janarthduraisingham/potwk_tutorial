@@ -23,3 +23,6 @@ st.subheader("Next up:")
 if st.button("17) The Trade Action"):
     st.switch_page("trade.py")
 
+st.write("Questions? Don't worry - later, we'll look at:")
+if st.button("27) Turns and Rounds"):
+    st.switch_page("turns.py")

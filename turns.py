@@ -22,4 +22,9 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 st.subheader("Next up:")
 if st.button("28) Paladins"):
     st.switch_page("paladins.py")
+    
+st.write("Went on a tangent? Return to:")
+
+if st.button("16) The Hunt Action"):
+    st.switch_page("hunt.py")
 
