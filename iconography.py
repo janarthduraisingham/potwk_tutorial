@@ -23,3 +23,10 @@ st.subheader("Next up:")
 if st.button("33) Scoring"):
     st.switch_page("scoring.py")
 
+    
+st.write("Went on a tangent? Return to:")
+
+if st.button("21) The Commission Action"):
+    st.switch_page("commission.py")
+
+
