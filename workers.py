@@ -6,7 +6,7 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("5) The Workers")
+st.header("12) The Workers")
 
 video_file = open("videos/workers.mp4", "rb")
 test = video_file.read()
@@ -14,12 +14,11 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 
 
 st.subheader("Next up:")
-if st.button("6) The Townsfolk"):
-    st.switch_page("townsfolk.py")
-    
-st.write("Questions? Don't worry - later we'll look at:")    
 if st.button("13) Suspicion"):
     st.switch_page("suspicion.py")
+    
+st.write("Questions? Don't worry - later we'll look at:")    
+
 if st.button("14) Actions"):
     st.switch_page("actions.py")
     
