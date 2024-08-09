@@ -17,7 +17,7 @@ for i in range(4):
     
     with cols[i]:
         
-        var["name"+str(i)] = st.text_input("Player " + str(i+1) + " ame")
+        var["name"+str(i)] = st.text_input("Player " + str(i+1) + " Name")
 #with cols[0]:
     
     #p1 = st.text_input("Player 1 Name")
@@ -34,6 +34,6 @@ for i in range(4):
     
     #p4 = st.text_input("Player 4 Name")
 
-st.write(var["name1"])
+st.subheader(var["name1"])
 
 
