@@ -16,6 +16,16 @@ with cols[0]:
     p1 = st.text_input("Player 1 Name")
     ko1 = st.selectbox("King's Orders",
     (0, 4, 6, 8, 10, 12, 14, 18),)
+    faith1 = st.selectbox("Faith",
+    (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),)
+    influence1 = st.selectbox("Influence",
+    (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),)
+    strength1 = st.selectbox("Strength",
+    (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),)
+    develop1 = st.selectbox("Develop",
+    (0, 1, 3, 6),)
+    debt1 = st.selectbox("Debt",
+    (-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5),)
     
 with cols[1]:
     
