@@ -14,8 +14,8 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 
 
 st.subheader("Next up:")
-if st.button("12) Actions"):
-    st.switch_page("actions.py")
+if st.button("12) The Workers"):
+    st.switch_page("workers.py")
     
 st.write("Went on a tangent? Return to:")
 
