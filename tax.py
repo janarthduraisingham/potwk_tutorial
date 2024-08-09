@@ -17,3 +17,12 @@ st.subheader("Next up:")
 if st.button("10) Debt"):
     st.switch_page("debt.py")
 
+st.write("Questions? Don't worry - later, we'll look at:")
+if st.button("13) Suspicion"):
+    st.switch_page("suspicion.py")
+    
+    
+st.write("Went on a tangent? Return to:")
+
+if st.button("7) Silver and Bronze"):
+    st.switch_page("silver_bronze.py")
