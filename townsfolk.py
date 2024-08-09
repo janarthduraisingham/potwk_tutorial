@@ -17,5 +17,9 @@ st.subheader("Next up:")
 if st.button("6) The Invaders"):
     st.switch_page("invaders.py")
     
+st.write("Went on a tangent? Return to:")
+if st.button("3) What is the aim of the game?"):
+    st.switch_page("aim.py")
+    
     
 

@@ -18,6 +18,8 @@ if st.button("12) The Workers"):
     st.switch_page("workers.py")
     
 st.write("Went on a tangent? Return to:")
+if st.button("3) What is the aim of the game?"):
+    st.switch_page("aim.py")
 
 if st.button("4) Game Board Setup"):
     st.switch_page("setup.py")

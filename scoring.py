@@ -17,3 +17,7 @@ st.write("part 2")
 video_file = open("videos/scoring2.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+st.write("Went on a tangent? Return to:")
+if st.button("3) What is the aim of the game?"):
+    st.switch_page("aim.py")

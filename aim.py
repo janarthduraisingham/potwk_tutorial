@@ -16,6 +16,19 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 st.subheader("Next up:")
 if st.button("4) Game Board Setup"):
     st.switch_page("setup.py")
+    
+st.write("Questions? Don't worry - later, we'll look at:")    
+if st.button("33) Scoring"):
+    st.switch_page("scoring.py")
+    
+if st.button("5) The Townsfolk"):
+    st.switch_page("townsfolk.py")
+
+if st.button("6) The Invaders"):
+    st.switch_page("invaders.py")
+    
+if st.button("11) Attributes"):
+    st.switch_page("attributes.py")
 
 st.write("Went on a tangent? Return to:")
 if st.button("1) Why play Paladins of the West Kingdom?"):
