@@ -17,7 +17,7 @@ for i in range(4):
     
     with cols[i]:
         
-        var["name"+str(i)] = st.text_input("Player " + str(i+1) + " Name")
+        var["name"+str(i)] = st.text_input("Player " + str(i+1) + " ame")
 #with cols[0]:
     
     #p1 = st.text_input("Player 1 Name")
