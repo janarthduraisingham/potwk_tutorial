@@ -16,6 +16,10 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 st.subheader("Next up:")
 if st.button("8) Provisions"):
     st.switch_page("provisions.py")
+    
+st.write("Questions? Don't worry - later, we'll look at:")
+if st.button("9) Tax"):
+    st.switch_page("tax.py")
 
 st.write("Went on a tangent? Return to:")
 
