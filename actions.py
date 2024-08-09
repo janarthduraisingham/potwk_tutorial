@@ -21,3 +21,7 @@ st.write("Went on a tangent? Return to:")
 
 if st.button("4) Game Board Setup"):
     st.switch_page("setup.py")
+    
+if st.button("11) Attributes"):
+    st.switch_page("attributes.py")
+       

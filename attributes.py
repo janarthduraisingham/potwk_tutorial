@@ -17,6 +17,10 @@ st.subheader("Next up:")
 if st.button("12) The Workers"):
     st.switch_page("workers.py")
     
+st.write("Questions? Don't worry - later, we'll look at:")
+if st.button("14) Actions"):
+    st.switch_page("actions.py")
+    
 st.write("Went on a tangent? Return to:")
 if st.button("3) What is the aim of the game?"):
     st.switch_page("aim.py")
