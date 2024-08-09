@@ -8,7 +8,13 @@ import streamlit as st
 
 st.header("4) Game Board Setup")
 
-video_file = open("videos/setup.mp4", "rb")
+st.write("part 1")
+video_file = open("videos/setup1.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+st.write("part 2")
+video_file = open("videos/setup2.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
