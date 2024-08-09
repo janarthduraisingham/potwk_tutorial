@@ -8,7 +8,18 @@ import streamlit as st
 
 st.header("18) The Recruit Action")
 
-video_file = open("videos/recruit.mp4", "rb")
+st.write("part 1")
+video_file = open("videos/recruit1.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+st.write("part 2")
+video_file = open("videos/recruit2.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+st.write("part 3")
+video_file = open("videos/recruit3.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
