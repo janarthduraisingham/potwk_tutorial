@@ -14,7 +14,19 @@ cols = st.columns(4)
 with cols[0]:
     
     p1 = st.text_input("Player 1 Name")
+    
+with cols[1]:
+    
+    p2 = st.text_input("Player 2 Name")
+    
+with cols[2]:
+    
+    p3 = st.text_input("Player 3 Name")
+    
+with cols[3]:
+    
+    p4 = st.text_input("Player 4 Name")
 
-st.write(p1)
+st.write(p1+p2+p3+p4)
 
 
