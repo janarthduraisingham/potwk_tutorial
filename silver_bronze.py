@@ -17,3 +17,7 @@ st.subheader("Next up:")
 if st.button("8) Provisions"):
     st.switch_page("provisions.py")
 
+st.write("Went on a tangent? Return to:")
+
+if st.button("4) Game Board Setup"):
+    st.switch_page("setup.py")

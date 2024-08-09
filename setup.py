@@ -29,6 +29,33 @@ if st.button("5) The Workers"):
     
 if st.button("7) The Invaders"):
     st.switch_page("invaders.py")
+       
+if st.button("30) The King's Orders"):
+    st.switch_page("kings_orders.py")
+
+if st.button("31) The King's Favours"):
+    st.switch_page("kings_favours.py")
     
-if st.button("12) Attributes"):
+if st.button("28) The Paladins"):
+    st.switch_page("paladins.py")
+    
+if st.button("14) Actions"):
+    st.switch_page("actions.py")
+    
+if st.button("11) Attributes"):
     st.switch_page("attributes.py")
+    
+if st.button("7) Silver and Bronze"):
+    st.switch_page("silver_bronze.py")
+    
+if st.button("8) Provisions"):
+    st.switch_page("provisions.py")
+    
+if st.button("29) Tavern Cards"):
+    st.switch_page("kings_orders.py")
+    
+if st.button("13) Suspicion"):
+    st.switch_page("kings_orders.py")
+    
+if st.button("10) Debt"):
+    st.switch_page("kings_orders.py")
