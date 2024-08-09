@@ -35,5 +35,5 @@ for i in range(4):
     #p4 = st.text_input("Player 4 Name")
 
 st.subheader(var["name1"])
-
+st.subheader("2")
 
