@@ -9,7 +9,11 @@ import streamlit as st
 st.header("34) Score Calculator")
 
 
+cols = st.columns(4)
 
+with cols[0]:
+    
+    st.text_input("Player 1 Name")
 
 
 
