@@ -75,7 +75,8 @@ kings_orders = st.Page("kings_orders.py", title="30) The King's Orders", icon=":
 kings_favours = st.Page("kings_favours.py", title="31) The King's Favours", icon=":material/castle:")
 iconography = st.Page("iconography.py", title="32) Iconography", icon=":material/castle:")
 scoring = st.Page("scoring.py", title="33) Scoring", icon=":material/castle:")
-
+calculator = st.Page("calulator.py", title="34) Score Calculator", icon=":material/castle:")
+acknowledgement = st.Page("acknowledgement.py", title="35) Credits", icon=":material/castle:")
 
 
 pg = st.navigation([why,
@@ -110,7 +111,9 @@ pg = st.navigation([why,
                     kings_orders,
                     kings_favours,
                     iconography,
-                    scoring
+                    scoring,
+                    calculator,
+                    acknowledgement
                 
                     ])
 pg.run()
