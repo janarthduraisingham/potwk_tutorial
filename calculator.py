@@ -42,8 +42,6 @@ with cols[0]:
     
     scores[1] = sum([ko1, faith1, influence1, strength1, develop1, debt1, silver_provisions1, commission1, fortify1, garrison1, absolve1, convert1])
     
-    if st.button("Calculate score", key=49):
-        st.write(p1 + ": " + str(scores[1]))
     
 with cols[1]:
     
@@ -75,8 +73,6 @@ with cols[1]:
     
     scores[2] = sum([ko2, faith2, influence2, strength2, develop2, debt2, silver_provisions2, commission2, fortify2, garrison2, absolve2, convert2])
     
-    if st.button("Calculate score", key=50):
-        st.write(p2 + ": " + str(scores[2]))
         
 with cols[2]:
     
@@ -108,8 +104,6 @@ with cols[2]:
     
     scores[3] = sum([ko3, faith3, influence3, strength3, develop3, debt3, silver_provisions3, commission3, fortify3, garrison3, absolve3, convert3])
     
-    if st.button("Calculate score", key=51):
-        st.write(p3 + ": " + str(scores[3]))
     
 with cols[3]:
     
@@ -141,8 +135,11 @@ with cols[3]:
     
     scores[4] = sum([ko4, faith4, influence4, strength4, develop4, debt4, silver_provisions4, commission4, fortify4, garrison4, absolve4, convert4])
     
-    if st.button("Calculate score", key=52):
-        st.write(p4 + ": " + str(scores[4]))
+if st.button("Calculate all scores", key=49):
+    st.write(p1 + ": " + str(scores[1]))
+    st.write(p2 + ": " + str(scores[2]))
+    st.write(p3 + ": " + str(scores[3]))    
+    st.write(p4 + ": " + str(scores[4]))
     
 
 
