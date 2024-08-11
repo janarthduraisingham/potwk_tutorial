@@ -18,7 +18,7 @@ with cols[0]:
     ko1 = st.selectbox("King's Orders",
     (0, 4, 6, 8, 10, 12, 14, 18),key=1)
     faith1 = st.selectbox("Faith",
-    (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),key=2)
+    (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20),key=2)
     influence1 = st.selectbox("Influence",
     (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12),key=3)
     strength1 = st.selectbox("Strength",
